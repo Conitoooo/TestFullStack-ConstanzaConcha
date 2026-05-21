@@ -11,11 +11,16 @@
 
 ### Activar entorno virtual:
    *En Windows:
-     venv\Scripts\activate
-     pip install -r requirements.txt     
+    
+    venv\Scripts\activate
+    
+    pip install -r requirements.txt     
+    
    *En mac/Linux:
-     source venv/bin/activate
-     pip install -r requirements.txt
+    
+    source venv/bin/activate
+    
+    pip install -r requirements.txt
 
 ### Iniciar el servidor:
    uvicorn app.main:app --reload
